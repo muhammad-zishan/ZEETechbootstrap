@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://font.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet
+  ">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>iCoder fon heaven Programmer</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .carousel-item p {
+      color: black;
+      font-size: 20px;
+    }
+
+    .carousel-item h2 {
+      font-weight: bold;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding-top: 10px;">
+    <a class="navbar-brand" href="inex1.html" style="padding-left: 70px; padding-top: 0px;"><img style="border-radius:30px;" src="images/87.png" width="120px" height="80px" alt=""></a></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse mr-3" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-2 mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link mr-3" href="inex1.html"><b>Home </b><span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item  active">
+          <a class="nav-link mr-3" href="about.html"><b>About</b></a>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle mr-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <b>Topics</b>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Technology</a>
+            <a class="dropdown-item" href="#">Web Development</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Support</a>
+            <a class="dropdown-item" href="#">Write for us</a>
+
+          </div>
+        </li>
+
+        <li class="nav-item ">
+          <a class="nav-link mr-3" href="contactus.html"><b>Contact Us</b></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control  mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success ml-3 my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="mx-2">
+        <button class="btn btn btn-primary" data-toggle="modal" data-target="#loginModal"><b>Login</b></button>
+        <button class="btn btn btn-info" data-toggle="modal" data-target="#signupModal"><b>SignUp</b></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+  Launch demo modal
+</button> -->
+
+<!--Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel"><b>Login to ZeeTech</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1"><b>Email address</b></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+           
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1"><b>Password</b></label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary"><b>Login</b></button>
+
+          <button type="button" class="btn btn-info ml-5" data-toggle="modal" data-target="#signupModal"><b>Create Account</b></button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal"><b>Close</b></button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signupModal">
+  Launch demo modal
+</button>  -->
+
+<!--signup Modal -->
+<div class="modal fade  mr-sm-0" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModalLabel"><b>SignUp ZEETech Account</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1"><b>Email address</b></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+           
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1"><b>Password</b></label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="cexampleInputPassword1"><b>Confirm Password</b></label>
+            <input type="password" class="form-control" id="cexampleInputPassword1" placeholder="Confirm Password">
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary"><b>Create Account</b></button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal"><b>Close</b></button>
+    
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="container my-4">
+    <div class="row featurette d-flex justify-content-center align-items-center my-5 ml-5 mr-5">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span>
+        </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+          commodo.Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+          commodo.Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+          semper.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+          style="width: 400px; height: 400px;" src="images/12.jpg" data-holder-rendered="true">
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container">
+
+    <div class="row featurette d-flex justify-content-center align-items-center my-5 ml-5 mr-5">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+          commodo.Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+          commodo.Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+          semper.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+          src="images/3.jpg" data-holder-rendered="true" style="width: 400px; height: 400px;">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row featurette d-flex justify-content-center align-items-center my-5 ml-5 mr-5">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span>
+        </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+          commodo.Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+          commodo.Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+          semper.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+          style="width: 400px; height: 400px;" src="images/12.jpg" data-holder-rendered="true">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <footer class="container ">
+      <p class="float-right"><a href="#"><b>Back to top</b></a></p>
+      <p ><b>© 2021-2022 ZEETech, Inc.</b>  <a href="#"><b>Privacy</b></a>  <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;<b>Terms</b></a></p>
+    </footer>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
